@@ -1,2 +1,2 @@
 # slice_jast
-alhoritm and pattern example
+algorithm and pattern example
