@@ -33,12 +33,3 @@ function bubbleSort($array, $viewSpeed, $visible)
     } while ($notDone);
 
 }
-
-function swap(array &$array, int $left, int $right)
-{
-    if ($left !== $right) {
-        $tmp = $array[$right];
-        $array[$right] = $array[$left];
-        $array[$left] = $tmp;
-    }
-}

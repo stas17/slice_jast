@@ -25,5 +25,13 @@ function view_sort($array, $viewSpeed)
     }
     print_r($str_sort);
     usleep($viewSpeed);
+}
 
+function swap(array &$array, int $left, int $right)
+{
+    if ($left !== $right) {
+        $tmp = $array[$right];
+        $array[$right] = $array[$left];
+        $array[$left] = $tmp;
+    }
 }
